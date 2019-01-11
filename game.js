@@ -61,7 +61,7 @@ function playAudio(name) {
 
 //Sets random color and adds it to the gamePattern array. 
 function nextSequence() {
-    var randomNumber = Math.floor(Math.random() * 4 + 1);
+    var randomNumber = Math.floor(Math.random() * 4);
     randomChosenColor = buttonColours[randomNumber];
     gamePattern.push(randomChosenColor);
     $("#" + randomChosenColor).fadeIn(100).fadeOut(100).fadeIn(100);
