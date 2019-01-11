@@ -78,5 +78,4 @@ function startOver() {
         $("h1").text("Level 0");
         nextSequence();
     });
-
 }
